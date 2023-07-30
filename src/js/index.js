@@ -84,6 +84,7 @@ const func = () => {
     console.log(index);
   };
 
+  changeImg();
   const changeImgInterval = setInterval(changeImg, 20000);
 
   if (index >= 20) {
